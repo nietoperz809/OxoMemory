@@ -1,0 +1,177 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif\r\n"
+    "#include ""res\\OxoMemory.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_OXO                 ICON                    "res\\icon1.ico"
+IDI_MEMORY              ICON                    "res\\ico00001.ico"
+IDI_APPICON             ICON                    "res\\appicon.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB1                    BITMAP                  "res\\idb1.bmp"
+IDB2                    BITMAP                  "res\\idb2.bmp"
+IDB3                    BITMAP                  "res\\idb3.bmp"
+IDB0                    BITMAP                  "res\\idb0.bmp"
+IDB14                   BITMAP                  "res\\idb14.bmp"
+IDB13                   BITMAP                  "res\\idb13.bmp"
+IDB12                   BITMAP                  "res\\idb12.bmp"
+IDB11                   BITMAP                  "res\\idb11.bmp"
+IDB10                   BITMAP                  "res\\idb10.bmp"
+IDB9                    BITMAP                  "res\\idb9.bmp"
+IDB4                    BITMAP                  "res\\idb4.bmp"
+IDB8                    BITMAP                  "res\\idb8.bmp"
+IDB7                    BITMAP                  "res\\idb7.bmp"
+IDB6                    BITMAP                  "res\\idb6.bmp"
+IDB5                    BITMAP                  "res\\idb5.bmp"
+IDB_OXO_X               BITMAP                  "res\\bitmap1.bmp"
+IDB_OXO_O               BITMAP                  "res\\bitmap2.bmp"
+IDB_BACKGND             BITMAP                  "res\\bmp00001.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MENU1 MENU 
+BEGIN
+    POPUP "Window"
+    BEGIN
+        MENUITEM "Tile",                        ID_WINDOW_TILE_VERT
+    END
+    POPUP "?", HELP
+    BEGIN
+        MENUITEM "About OXO-Memory",            ID__ABOUTOXOMEMORY
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Cursor
+//
+
+IDC_NODROP              CURSOR                  "nodrop.cur"
+HAND_DOWN               CURSOR                  "res\\hand_dow.cur"
+HAND_UP                 CURSOR                  "res\\hand_up.cur"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// WAVE
+//
+
+IDR_WAVE_5TH            WAVE                    "Waves\\5TH.WAV"
+IDR_WAVE_APPLAUS        WAVE                    "Waves\\APPLAUSE.WAV"
+IDR_WAVE_CHA            WAVE                    "Waves\\CHA1.WAV"
+IDR_WAVE_DRIP           WAVE                    "Waves\\DRIP.WAV"
+IDR_WAVE_NO             WAVE                    "Waves\\SCHLKAUF.WAV"
+IDR_WAVE_OHOH           WAVE                    "Waves\\OHOH.WAV"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUT DIALOGEX 0, 0, 167, 92
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About OXO-Memory"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,100,10,50,14
+    ICON            IDI_APPICON,IDC_STATIC,6,7,20,20
+    ICON            IDI_MEMORY,IDC_STATIC,34,6,20,20
+    ICON            IDI_OXO,IDC_STATIC,65,7,20,20
+    LTEXT           "OXO Memory\n\nCreated as birthday gift for a little boy.",IDC_STATIC,8,46,150,30
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif
+#include "res\OxoMemory.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

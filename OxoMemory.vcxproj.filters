@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Quellcodedateien">
+      <UniqueIdentifier>{841e1163-29f2-4d49-a4ba-0b5f05440c9a}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat;for;f90</Extensions>
+    </Filter>
+    <Filter Include="Header-Dateien">
+      <UniqueIdentifier>{7d9efb82-5f02-478b-b7b2-ace41628f03b}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;fi;fd</Extensions>
+    </Filter>
+    <Filter Include="Ressourcendateien">
+      <UniqueIdentifier>{ca755123-2496-4351-a9c5-045a898166ff}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;cnt;rtf;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AboutOxo.cpp">
+      <Filter>Quellcodedateien</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpButton.cpp">
+      <Filter>Quellcodedateien</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>Quellcodedateien</Filter>
+    </ClCompile>
+    <ClCompile Include="MDIClient.cpp">
+      <Filter>Quellcodedateien</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryWindow.cpp">
+      <Filter>Quellcodedateien</Filter>
+    </ClCompile>
+    <ClCompile Include="OXOButton.cpp">
+      <Filter>Quellcodedateien</Filter>
+    </ClCompile>
+    <ClCompile Include="OxoMemory.cpp">
+      <Filter>Quellcodedateien</Filter>
+    </ClCompile>
+    <ClCompile Include="OXOWindow.cpp">
+      <Filter>Quellcodedateien</Filter>
+    </ClCompile>
+    <ClCompile Include="StdAfx.cpp">
+      <Filter>Quellcodedateien</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="OxoMemory.rc">
+      <Filter>Quellcodedateien</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AboutOxo.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpButton.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="MainFrm.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="MDIClient.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryWindow.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="OXOButton.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="OxoMemory.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="OXOWindow.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="resource.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+    <ClInclude Include="StdAfx.h">
+      <Filter>Header-Dateien</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\appicon.ico">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\bitmap1.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\bitmap2.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\bmp00001.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\ico00001.ico">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\icon1.ico">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\idb0.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\idb1.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\idb10.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\idb11.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\idb12.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\idb13.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\idb14.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\idb2.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\idb3.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\idb4.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\idb5.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\idb6.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\idb7.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\idb8.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+    <Image Include="res\idb9.bmp">
+      <Filter>Ressourcendateien</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="res\hand_dow.cur">
+      <Filter>Ressourcendateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\hand_up.cur">
+      <Filter>Ressourcendateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="nodrop.cur">
+      <Filter>Ressourcendateien</Filter>
+    </CustomBuild>
+    <CustomBuild Include="res\OxoMemory.rc2">
+      <Filter>Ressourcendateien</Filter>
+    </CustomBuild>
+  </ItemGroup>
+</Project>
